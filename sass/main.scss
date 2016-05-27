@@ -143,36 +143,16 @@ a {
       width: 150px;
       height: 150px;
       left: 50%;
+      display: block;
       line-height: 150px;
       text-align: center;
       transform: translateX(-50%);
       border-radius: 75px;
       top: 35%;
       font-size: 1.5em;
-      z-index: 500;
-      &:before {
-        position: absolute;
-        left: 0;
-        bottom: 15%;
-        height: 5px;
-        width: 50%;
-        z-index: -1;
-        box-shadow: 0 5px 10px 3px #888;
-        content: '';
-        transform: rotate(20deg);
-      }
-      &:after {
-        position: absolute;
-        right: 0;
-        bottom: 15%;
-        height: 5px;
-        width: 50%;
-        z-index: 0;
-        box-shadow: 0 5px 10px 3px #888;
-        content: '';
-        transform: rotate(-20deg);
-      }
+      box-shadow: 0 0 20px #000;
     }
+    
     a {
       display: block;
       width: 100%;
